@@ -1,0 +1,9 @@
+server.port: 5601
+server.host: "0.0.0.0"
+elasticsearch.hosts: ["http://es-node-1:9200","http://es-node-2:9200","http://es-node-3:9200"]
+
+#下面两项，需要开启RBAC时需要打开配合es使用
+#elasticsearch.username: "user"
+#elasticsearch.password: "pass"
+# 设置中文
+i18n.locale: "zh-CN"
